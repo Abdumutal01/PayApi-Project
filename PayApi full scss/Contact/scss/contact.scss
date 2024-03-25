@@ -1,0 +1,156 @@
+                /*main-site start */
+                
+                .main {
+                    margin-top: 82px;
+                    &__title {
+                        width: 640px;
+                        color: #36536B;
+                    }
+                    &____general {
+                        margin-top: 43px;
+                    }
+                    &__forms {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 43px;
+                    }
+                    &__inputs {
+                        width: 100%;
+                        margin-bottom: 24px;
+                        padding: 10px 20px;
+                        border: none;
+                        background: transparent;
+                        outline: none;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #36536B;
+                        opacity: 0.7;
+                        font-family: Public Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        letter-spacing: -0.11538461595773697px;
+                        text-align: left;
+                        transition: .3s ease all;
+                    }
+                    &__inputs:hover {
+                        opacity: 1;
+                        cursor: pointer;
+                        color: #36536B;
+                    }
+                    &__inputs:focus {
+                        border-bottom: 1px solid #FF0000;
+                        color: #FF0000;
+                    }
+                    &__inputs:focus::placeholder {
+                        color: #FF0000;
+                    }
+                    &__message {
+                        padding-bottom: 64px;
+                    }
+                    &__checkDiv {
+                        display: flex;
+                        align-items: center;
+                        gap: 26px;
+                        border: none;
+                    }
+                    &__check {
+                        width: 24px;
+                        height: 24px;
+                        font-size: 24px;
+                        background: #36536B;
+                    }
+                    &__check[type="checkbox"] {
+                        transform: scale(1.5);
+                        background: #36536B;
+                        outline: none;
+                    }
+                    &___check[type="checkbox"]:focus {
+                        background-color: #FF0000;
+                        /* Rangi ko'rish uchun quyidagi belgilash */
+                        border-color: #007bff;
+                    }
+                    &__label {
+                        width: 395px;
+                        font-family: Public Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        letter-spacing: -0.12px;
+                        color: #36536B;
+                        text-align: left;
+                    }
+                    &__btnLinks {
+                        margin-top: 24px;
+                        padding: 16px 50px;
+                        display: block;
+                        border: 1px solid #36536B;
+                        font-family: Public Sans;
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 17.63px;
+                        letter-spacing: -0.11538461595773697px;
+                        text-align: center;
+                        width: 152px;
+                        border-radius: 30px;
+                        color: #36536B;
+                        transition: .3s ease;
+                    }
+                    &__btnLinks:hover {
+                        background-color: #36536B;
+                        color: #fff;
+                    }
+                    &__innerJoin {
+                        font-family: DM Serif Display;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 32px;
+                        letter-spacing: -0.18px;
+                        color: #36536B;
+                        width: 445px;
+                        opacity: 0.8;
+                    }
+                    &__logoBox {
+                        margin-top: 40px;
+                    }
+                }
+                /*main-site end */
+                /* media screen 992 start */
+                
+                @media screen and (max-width:992px) {
+                    .container {
+                        width: 85%;
+                    }
+                    .main {
+                        margin-top: 75px;
+                        &__title {
+                            width: 503px;
+                            font-size: 48px;
+                            margin: 0 auto;
+                        }
+                        &__general {
+                            display: flex;
+                            flex-direction: column;
+                            margin-top: 54px;
+                        }
+                        &__innerJoin {
+                            margin: 0 auto;
+                            text-align: center;
+                            margin-top: 54px;
+                        }
+                    }
+                }
+                /* media screen 992 end */
+                /* media screen 768 start */
+                
+                @media screen and (max-width:768px) {
+                    .main {
+                        margin-top: 48px;
+                        &__title,
+                        &__innerJoin {
+                            width: 327px;
+                        }
+                        &__title {
+                            font-size: 32px;
+                        }
+                    }
+                }

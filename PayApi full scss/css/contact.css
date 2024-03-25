@@ -1,0 +1,156 @@
+/*main-site start */
+.main {
+  margin-top: 82px;
+}
+.main__title {
+  width: 640px;
+  color: #36536B;
+}
+.main____general {
+  margin-top: 43px;
+}
+.main__forms {
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+}
+.main__inputs {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #36536B;
+  opacity: 0.7;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.115384616px;
+  text-align: left;
+  transition: 0.3s ease all;
+}
+.main__inputs:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: #36536B;
+}
+.main__inputs:focus {
+  border-bottom: 1px solid #FF0000;
+  color: #FF0000;
+}
+.main__inputs:focus::-moz-placeholder {
+  color: #FF0000;
+}
+.main__inputs:focus::placeholder {
+  color: #FF0000;
+}
+.main__message {
+  padding-bottom: 64px;
+}
+.main__checkDiv {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  border: none;
+}
+.main__check {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  background: #36536B;
+}
+.main__check[type=checkbox] {
+  transform: scale(1.5);
+  background: #36536B;
+  outline: none;
+}
+.main___check[type=checkbox]:focus {
+  background-color: #FF0000;
+  /* Rangi ko'rish uchun quyidagi belgilash */
+  border-color: #007bff;
+}
+.main__label {
+  width: 395px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+  color: #36536B;
+  text-align: left;
+}
+.main__btnLinks {
+  margin-top: 24px;
+  padding: 16px 50px;
+  display: block;
+  border: 1px solid #36536B;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  letter-spacing: -0.115384616px;
+  text-align: center;
+  width: 152px;
+  border-radius: 30px;
+  color: #36536B;
+  transition: 0.3s ease;
+}
+.main__btnLinks:hover {
+  background-color: #36536B;
+  color: #fff;
+}
+.main__innerJoin {
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  color: #36536B;
+  width: 445px;
+  opacity: 0.8;
+}
+.main__logoBox {
+  margin-top: 40px;
+}
+
+/*main-site end */
+/* media screen 992 start */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 85%;
+  }
+  .main {
+    margin-top: 75px;
+  }
+  .main__title {
+    width: 503px;
+    font-size: 48px;
+    margin: 0 auto;
+  }
+  .main__general {
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+  }
+  .main__innerJoin {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 54px;
+  }
+}
+/* media screen 992 end */
+/* media screen 768 start */
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 48px;
+  }
+  .main__title, .main__innerJoin {
+    width: 327px;
+  }
+  .main__title {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=contact.css.map */

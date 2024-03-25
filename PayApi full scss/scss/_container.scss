@@ -1,0 +1,13 @@
+@mixin containerFul {
+    max-width: 1440px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 0 auto;
+}
+
+@mixin container {
+    width: 1140px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 0 auto;
+}

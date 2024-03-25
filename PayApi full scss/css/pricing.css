@@ -1,0 +1,158 @@
+/* main-site start */
+.main {
+  padding: 90px 0px;
+}
+.main__title {
+  color: #36536B;
+}
+.main__general {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 30px;
+}
+.main .planBox__title {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.25px;
+  color: #BA4270;
+}
+.main .planBox__text {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+  width: 350px;
+  margin-top: 16px;
+}
+.main .planBox__inner {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.43px;
+  color: #36536B;
+  margin-top: 10px;
+}
+.main__list {
+  border-top: 2px solid rgba(54, 83, 107, 0.5568627451);
+  border-bottom: 2px solid rgba(54, 83, 107, 0.6705882353);
+  padding: 24px 0px;
+}
+.main__item {
+  margin-top: 10px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #36536B;
+}
+.main .doubleC {
+  opacity: 0.5;
+}
+.main__item i {
+  color: #BA4270;
+  margin-right: 24px;
+}
+.main__link {
+  width: 180px;
+  display: block;
+  margin-top: 24px;
+  padding: 16px 28px;
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17.63px;
+  text-align: center;
+  letter-spacing: -0.12px;
+  color: #36536B;
+  border: 2px solid #36536B;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+.main__link:hover {
+  background-color: #36536B;
+  color: #FFF;
+}
+
+/* main-site end */
+/*footer-site start */
+.footer {
+  margin-top: 0;
+}
+
+/*footer-site end */
+/* media screen 992 start */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 85%;
+  }
+  /* main-site start */
+  .main {
+    padding: 80px 0px;
+  }
+  .main__title {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .main__general {
+    margin-top: 69px;
+    display: grid;
+    grid-template-columns: 223px 223px 223px;
+    grid-gap: 10px;
+  }
+  .main .planBox {
+    width: 100%;
+  }
+  .main .planBox__title, .main .planBox__text, .main .planBox__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main__list {
+    margin-top: 21px;
+    width: 100%;
+    text-align: center;
+  }
+  .main__item {
+    display: flex;
+    margin: 0 auto;
+  }
+  .main__link {
+    width: 180px;
+  }
+  /* main-site end */
+}
+/* media screen 992 end */
+/* media screen 768 start */
+@media screen and (max-width: 768px) {
+  /* main-site start */
+  .main {
+    margin-top: 48px;
+  }
+  .main__general {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__list {
+    margin-bottom: 48px;
+  }
+  .main__item {
+    margin-left: 40%;
+  }
+  .main__link {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+  /* main-site end */
+}
+/* media screen 768 end *//*# sourceMappingURL=pricing.css.map */
